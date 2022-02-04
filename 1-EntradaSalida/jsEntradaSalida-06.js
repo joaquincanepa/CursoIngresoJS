@@ -17,6 +17,6 @@ function sumar()
 	resultado=parseInt(resultado);
 
 
-	alert(resultado);
+	alert("La suma es "+resultado);
 }
 

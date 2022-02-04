@@ -1,4 +1,5 @@
-/*
+/*Joaquin Canepa
+Ejercicio 9
 Debemos lograr tomar el importe por ID ,
 transformarlo a entero (parseInt), luego
 mostrar el importe con un aumento del 10 %
@@ -9,10 +10,10 @@ function mostrarAumento()
 	let aumento;
 
 	sueldo=document.getElementById("txtIdSueldo").value;
-	sueldo=parseInt(sueldo);
+	sueldo=parseFloat(sueldo);
 
-	aumento=sueldo + (sueldo * 0.10)
-	aumento=parseInt(aumento);
+	aumento=sueldo+(sueldo * 0.10);
+	aumento=parseFloat(aumento);
 
 	document.getElementById("txtIdResultado").value=aumento;
 

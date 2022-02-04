@@ -1,4 +1,6 @@
 /*
+Joaquin Canepa
+Ejercicio 7
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostrar el resulto por medio de "ALERT"
@@ -8,6 +10,7 @@ function sumar()
 	let numeroUno;
 	let numeroDos;
 	let resultado;
+	let mensaje;
 
 	numeroUno=document.getElementById("txtIdNumeroUno").value;
 	numeroUno=parseInt(numeroUno);
@@ -15,9 +18,10 @@ function sumar()
 	numeroDos=parseInt(numeroDos);
 	resultado=(numeroUno + numeroDos);
 	resultado=parseInt(resultado);
+	mensaje="La suma es "+resultado;
 
 
-	alert("La suma es "+resultado);	
+	alert(mensaje);	
 }
 
 function restar()
@@ -25,15 +29,18 @@ function restar()
 	let numeroUno;
 	let numeroDos;
 	let resultado;
+	let mensaje;
+
 	numeroUno=document.getElementById("txtIdNumeroUno").value;
 	numeroUno=parseInt(numeroUno);
 	numeroDos=document.getElementById("txtIdNumeroDos").value;
 	numeroDos=parseInt(numeroDos);
 	resultado=(numeroUno - numeroDos);
 	resultado=parseInt(resultado);
+	mensaje="La resta es "+resultado;
 
 
-	alert("La resta es "+resultado);
+	alert(mensaje);
 }
 
 function multiplicar()
@@ -41,6 +48,8 @@ function multiplicar()
 	let numeroUno;
 	let numeroDos;
 	let resultado;
+	let mensaje;
+
 	numeroUno=document.getElementById("txtIdNumeroUno").value;
 	numeroUno=parseInt(numeroUno);
 	numeroDos=document.getElementById("txtIdNumeroDos").value;
@@ -48,8 +57,10 @@ function multiplicar()
 	resultado=(numeroUno * numeroDos);
 	resultado=parseInt(resultado);
 
+	mensaje="La multiplicacion es "+resultado;
 
-	alert("La multiplicacion es "+resultado);
+
+	alert(mensaje);
 }
 
 function dividir()
@@ -57,14 +68,17 @@ function dividir()
 	let numeroUno;
 	let numeroDos;
 	let resultado;
+	let mensaje;
+
 	numeroUno=document.getElementById("txtIdNumeroUno").value;
-	numeroUno=parseInt(numeroUno);
+	numeroUno=parseFloat(numeroUno);
 	numeroDos=document.getElementById("txtIdNumeroDos").value;
-	numeroDos=parseInt(numeroDos);
+	numeroDos=parseFloat(numeroDos);
 	resultado=(numeroUno / numeroDos);
-	resultado=parseInt(resultado);
+	resultado=parseFloat(resultado);
+	mensaje="La division es "+resultado
 
 
-	alert("La division es "+resultado);
+	alert(mensaje);
 }
 

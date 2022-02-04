@@ -8,6 +8,7 @@ function sumar()
 	let numeroUno;
 	let numeroDos;
 	let resultado;
+	let mensaje;
 
 	numeroUno=document.getElementById("txtIdNumeroUno").value;
 	numeroUno=parseInt(numeroUno);
@@ -16,7 +17,9 @@ function sumar()
 	resultado=(numeroUno + numeroDos);
 	resultado=parseInt(resultado);
 
+	mensaje="La suma es "+resultado;
 
-	alert("La suma es "+resultado);
+
+	alert(mensaje);
 }
 

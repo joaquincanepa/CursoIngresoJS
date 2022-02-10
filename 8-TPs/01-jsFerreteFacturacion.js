@@ -22,7 +22,7 @@ function Sumar ()
     numero3=document.getElementById("txtIdPrecioTres").value;
     numero3=parseInt(numero3);
 
-    resultado= numero1+numero2+numero3;
+    resultado= numero1 + numero2 + numero3;
     resultado=parseFloat(resultado);
     mensaje=" el resultado de la suma es: " + resultado;
 

@@ -1,9 +1,28 @@
+/* Joaquin Canepa
+	switch 04
+*/
 function mostrar()
 {
-	//tomo el mes
-	var mesDelAño =txtIdMes.value;
-	alert(mesDelAño);
-	
+	let mesDelAnio;
+	let mensaje;
+
+	mesDelAnio=document.getElementById("txtIdMes").value;
+
+	switch (mesDelAnio) {
+		case "Febrero":
+		mensaje="este mes tiene 28 dias";
+			break;
+		case"Abril":
+		case"Junio":
+		case"Septiembre":
+		case"Noviembre":
+		mensaje= "Este mes tiene 30 dias "
+			break;
+		default:
+		mensaje="Este mes tiene 31 dias"
+			break;
+	}
+	alert(mensaje);
 	
 
 

@@ -1,11 +1,11 @@
 /* Joaquin Canepa
-	switch 06
+	switch 06 entregado
 */
 function mostrar()
 {
-var horaDelDia 
-horaDelDia=document.getElementById("txtIdHora").value;
-horaDelDia=parseFloat(horaDelDia);
+	var horaDelDia 
+	horaDelDia=document.getElementById("txtIdHora").value;
+	horaDelDia=parseFloat(horaDelDia);
 
 	switch (horaDelDia) {
 		case 0:
@@ -44,5 +44,5 @@ horaDelDia=parseFloat(horaDelDia);
 			break;
 	} 
 
-alert(mensaje);
+	alert(mensaje);
 }//FIN DE LA FUNCIÓN

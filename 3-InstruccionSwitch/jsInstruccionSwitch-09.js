@@ -1,3 +1,6 @@
+/* Joaquin Canepa
+	switch 09 entregado.
+*/
 function mostrar()
 {
 	let estacionAnio;

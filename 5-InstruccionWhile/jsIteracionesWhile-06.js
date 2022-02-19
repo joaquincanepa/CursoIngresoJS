@@ -1,13 +1,24 @@
+/*Joaquin Canepa
+	while 06 entregado */
 function mostrar()
 {
-	var contador;
-	var acumulador;
-	var numeroIngresado;
+	let i=0;
+	let numero;
+	let acumulador =0;
+	let promedio;
 
-	contador=0;
-	acumulador=0;
-	
-	
-	txtIdSuma.value=acumulador;
-	txtIdPromedio.value=acumulador/5;
+	while (i<5) {
+
+		numero=prompt("ingrese numero");
+		numero=parseInt(numero);
+		acumulador=acumulador+numero;
+		i++;
+	}
+
+	promedio=acumulador/5
+	promedio=parseFloat(promedio);
+
+	document.getElementById("txtIdSuma").value=acumulador;
+	document.getElementById("txtIdPromedio").value=promedio;
+
 }//FIN DE LA FUNCIÓN

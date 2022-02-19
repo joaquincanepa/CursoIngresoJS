@@ -1,5 +1,5 @@
 /* Joaquin Canepa
-	switch 08
+	switch 08 entregado.
 */
 function mostrar()
 {
